@@ -27,7 +27,7 @@ class CEventPractice extends Component {
   render() {
     return (
       <div>
-        <h1>아밴트 연습</h1>
+        <h1>이벤트 연습</h1>
         <input
           type="text"
           name="message"
