@@ -1,9 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <title>JUMP WEB STUDY</title>
+    <title>JUMP-Web-Study</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <h1>My First Heading</h1>
+    <p style="color:red">red Paragraph</p>
+    <p style="color:blue">blue Paragraph</p>
+    <p style="font-size:30px;">font-size 30px Paragraph</p>
     
+    <p class="color-first font-size-40px">
+        class : color-first, font-size-40px Paragraph
+    </p>
+
+    <img
+      width="200px" 
+      src="C:\Users\user\Pictures\Saved Pictures\html css icon.png">
+
+    <!--
+        event practice
+    -->
+    <div class="div-prac1">
+        <input type="text">
+        <button type="button" onclick="javascript:alert('You just clicked button!!')">Click</button>
+        <select>
+            <option>서울</option>
+            <option>경기</option>
+            <option>대전</option>
+            <option>부산</option>
+        </select>
+    </div>
+
+    <table class="table-prac1">
+        <caption>table practice</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>이름</th>
+                <th>지역</th>
+                <th>나이</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1번</td>
+                <td>손민재</td>
+                <td>서울</td>
+                <td rowspan="3">21</td>
+            </tr>
+            <tr>
+                <td>2번</td>
+                <td>홍호택</td>
+                <td>진해</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3번</td>
+                <td>송정현</td>
+                <td>용인</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Table foot</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <a href="https://www.naver.com/" target="_blank">네이버로 이동</a>
 </body>
+
 </html>
+
+<!--
+    tag : h1, div 등 element 의 종류
+    attribute : width, height, style 등 element 의 속성을 관리
+                tag 별로 avaliable attribute 다름
+    
+    style 1. inline style
+          2. internal style sheet
+          3. external style sheet
+
+    class 2개 이상 가질떄
+    -> class="class1 class2 class3" 처럼 blank 주고 나열하면 됨
+
+    event : page 의 apperance 말고도 user 가 click, scroll 등을 하면서
+            page 의 function 들을 이용할 떄 발생
+-->

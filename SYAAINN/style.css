@@ -1,0 +1,31 @@
+.color-first {
+    color:violet;
+}
+
+.font-size-40px {
+    font-size:40px;
+}
+
+.div-prac1 {
+    background-color: beige;
+    font-size:20px;
+}
+
+.table-prac1 {
+    border:2px solid #000;
+    width:400px;
+    height:200px;
+    font-size:15px;
+    background-color: coral;
+}
+
+/* 
+클래스에서 특정 element 에 대해 style 지정을 하고 싶을 떄, > 표시로 접근
+*/
+
+.table-prac1>thead {
+    font-weight:bold;
+    font-size:20px;
+}
+
+a.link {color:red;}
