@@ -20,8 +20,7 @@
 }
 
 /* 
-클래스에서 특정 element 에 대해 style 지정을 하고 싶을 떄, > 표시로 접근
-*/
+ * > 표시로 자식 element에 접근 가능. 순차적으로 접근해야 함 */
 
 .table-prac1>thead {
     font-weight:bold;
@@ -29,3 +28,4 @@
 }
 
 a.link {color:red;}
+
