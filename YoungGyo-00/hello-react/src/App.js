@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ScrollBox from './sample/ScrollBox';
 import IterationSample from './sample/IterationSample';
+import ValidationSample from './sample/ValidationSample';
 
 class App extends Component {
   render() {
-    return <IterationSample />;
+    return <ValidationSample />;
   }
 }
 
